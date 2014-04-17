@@ -161,7 +161,7 @@ bmrk.dbscan <- function(size=1, seed=1234){
     library('fpc')
     source('./TestDataGenerator.R', echo=FALSE)  
     
-    noiseSize = 900*size
+    noiseSize = 500*size
     clusterSize = 300*size
     set.seed(seed)
     # noise is same for all so do that upfront....
